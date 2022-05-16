@@ -6393,7 +6393,7 @@ ${c1}              oMMNMMMMMMMMMMMMMMMMMMMMMM
               oNNNNNNm${c2}dso${c1}mMMMMMMMMMMMMMM
 EOF
         ;;
-                "BlueWave"*)
+                "Blue"*)
             set_colors 6 6 7 1
             read -rd '' ascii_data <<'EOF'
  ${c1}                 .,codxxxxdo:,.
