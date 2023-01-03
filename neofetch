@@ -65,11 +65,11 @@ print_info() {
     info "Resolution" resolution
     info "DE" de
     info "WM" wm
-    info "WM Theme" wm_theme
-    info "Theme" theme
-    info "Icons" icons
-    info "Terminal" term
-    info "Terminal Font" term_font
+   # info "WM Theme" wm_theme
+   # info "Theme" theme
+   # info "Icons" icons
+   # info "Terminal" term
+   # info "Terminal Font" term_font
     info "CPU" cpu
     info "GPU" gpu
     info "Memory" memory
@@ -6396,31 +6396,30 @@ EOF
                 "Blue"*)
             set_colors 6 6 7 1
             read -rd '' ascii_data <<'EOF'
- ${c1}                 .,codxxxxdo:,.
-             .':oxxxxxxxxxxxxxxxxo:'.
-          .:dxxxxxxxxxxxxxxxxxxxxxxxxd:.
-        ;dxxxxxxxxxxxxxxodxxxxxxxxxxxxxxd;
-      :xxxxxxxxxxxxxxxxoclxxxxxxxxxxxxxxxxx:
-    'xxxxxxxxxxxxxxxxxdcccoxxxxxxxxxxxxxxxxxd'
-   cxxxxxxxxxxxxxxxxxdlccccoxxxxxxxxxxxxxxxxxx:
-  lxxxxxxxxxxxxxxxxxxlllllcloxxxxxxxxxxxxxxxxxxc
- :xxxxxxxxxxxxxxxxxxolllllllldxxxxxxxxxxxxxxxxxx;
-.xxxxxxxxxxxxxxxxxxdxdoolllllldxxxxxxxxxxxxxxxxxx.
-cxxxxxxxxxxxxxxxxxdoooddoooollodxxxxxxxxxxxxxxxxxc
-xxxxxxxxxxxxxxxxxddddddooooooooodxxxxxxxxxxxxxxxxd
-xxxxxxxxxxxxxxxxddddddoollllllllodxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxddoolcccccccccccccclxxxxxxxxxxxxxxd
-cxxxxxxxxxxxxdolccccccclllccccccccccdxxxxxxxxxxxx:
-.xxxxxxxxxxxocccccccclxxxxxdlccccccccdxxxxxxxxxxx.
- :xxxxxxxxkkkkkkkxdllxxxxxxxxcldxkkkkkOOxxxxxxxx;
-  dKKKKXX0xl:;,,;:lk0XXKKKKXX0ko:;,,,;cx0KXKKKKo
-   .,,'.'cdk0KXXK0kd:'.',,,'':ok0KXXK0Oxl,.',,.
-    .0XWMMN0xdoodx0WMMWXXXXWMMWKkdoodxONMMWN0.
-      cc:'..........':loodol:,...........;c:
-         ................................
-            ..........................
-                ..................
-                     ........
+ ${c1}                   .;ldkOOkxl;.
+              .cxKNKOkddoodxkOKNKxc'
+           cONOo;................;oONOc.
+        ,OWk;........................:kW0;
+      ;XXl..............................lXX:
+    .0Nl..................................lNK.
+   ,W0.......'''''.......''''''....'........OW:
+  ;Mx.....''''''''''',;::;;,,,,,,,,'''.......kM:
+ .MO....'',',''',,;:cllccclcc:;;,,,,',;;:coool0M.
+ XN....',,''',;clodddddddollcccloddxkxol:;,'...NN
+.Md..'',;,;loxxxkkkkkkkkOOO0KOxdoc;,......     lM.
+:M;'',;:ldkkkOO0KKKXXNX0doc:;,'''''............,Mc
+cM,';ldkkOOOKXK000OOxodolclcccccc::::;;,,''....'Ml
+,MxkOOOOOOO000000OOOkkkxxdddooooollllcccccc::::lM;
+ MXO00KKKKXXNNNNNNNXXK0000OOOOkkOkkkkxxxxdddooo0M
+ lWOOOOO000KKKXXXKKK00000OkkkkkkxxddoddollllcccWd
+  XNOOkkOO0KKXNNNXKK00OkkkxxxdddxdddddoooolllcKX
+   XXxxkkkkkkkOOOOOOkxxxxxdoooooollllllllcccc0N
+    xNxdddddddddxxxdddddoddooolllllccccccc:cXk
+      WOoooooollooooooooollllcc::::::;::::xW.
+       .Wkccccccccccccccccccccc:::;;;;;;xN.
+          O0d::::::::::::::;;;;;;;;;;o00
+             :Kkdc;;;;;;;;;,,,,,:okKc
+                   XK0OkkkkO0KN
 EOF
         ;;
 
